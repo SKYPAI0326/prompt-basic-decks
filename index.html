@@ -106,6 +106,9 @@
   }
   .chrome-link:hover{opacity:1;border-color:currentColor}
   .chrome-link::after{content:"↗";opacity:.7;font-size:.9em}
+  /* starred：本頁適合摘要、講義有更完整細節時，提示講師「值得開講義輔助」 */
+  .chrome-link.starred::before{content:"★";opacity:.85;margin-right:.3em;font-size:.95em}
+  .chrome-link.starred{border-color:currentColor;opacity:.85}
   .en{font-family:var(--serif-en);font-style:italic;font-weight:500}
 
   /* ============ 布局工具 ============ */
